@@ -1,0 +1,201 @@
+/* parte do posicionamento do Menu*/
+ul.nav{
+    width: 100%;
+    float: left;
+    text-align: center;
+    list-style: none;
+    float: inline-start;
+}
+/*parte do Menu referente a formatação estética*/
+li.mn {
+    color: blueviolet;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 60px;
+    display: inline-block;
+}
+/*Decoração dos links do menu*/
+a {
+    text-decoration: none;
+}
+/*Imagem da página inical*/
+img.Dengue {
+    position: absolute;
+}
+/*Texto 1 da página inicial*/
+p.pt1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 12em;
+    top: 90px;
+    width: 32em;
+    text-align: justify;
+}
+/*Texto 2 da página inicial*/
+p.pt2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 12em;
+    top: 250px;
+    width: 32em;
+    text-align: justify;
+}
+/*Texto 3 da página inicial*/
+p.pt3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 12em;
+    top: 420px;
+    width: 32em;
+    text-align: justify;
+}
+/*Texto 4 da página inicial*/
+p.pt4 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 12em;
+    top: 630px;
+    width: 32em;
+    text-align: justify;
+}
+/*Imagem representativa da dor e formatação dela na aba de sintomas*/
+img.Dor {
+    width: 33em;
+    position: absolute;
+    left: 50em;
+    top: 7em;
+}
+/*texto referente a dor e formatação dele na aba de sintomas*/
+p.Dor{
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 27em;
+    text-align: justify;
+}
+/*Imagem representativa da febre e formatação dela na aba de sintomas*/
+img.Febre {
+    width: 33em;
+    position: absolute;
+    left: 4em;
+    top: 26em;
+}
+/*Texto informativo da dor e formatação dele na aba de sintomas*/
+p.Febre{
+    position: absolute;
+    top: 17em;
+    left: 25em;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 28em;
+    text-align: justify;
+}
+/*Imagem representativa das manchas e formatação dela na aba de sintomas*/
+img.Manchas {
+    width: 33em;
+    position: absolute;
+    left: 50em;
+    top: 50em;
+}
+/*texto explicativo das manchas e formatação dele na aba de sintomas*/
+p.Manchas{
+    position: absolute;
+    top: 33em;
+    left: 2em;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 29em;
+    text-align: justify;
+
+}
+/*formatação do aviso na aba de sintomas*/
+p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    top: 1150px;
+    left: 2em;
+    text-align: justify;
+}
+/*Imagem guia da prevenção e formatação dela na aba de prevenção*/
+img.Prevenção {
+    position: absolute;
+    left: 21em;
+    top: 16em;
+}
+/*Texto indrotutório e formatação dele na aba de prevenção*/
+p.Prevenção{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    top: 89px;
+    text-align: justify;
+    left: 10px;
+}
+/*Lista de atos preventivos e formatação dela na aba de prevenção*/
+ul.Prevenção{
+    padding: 3em;
+    width: 100%;
+    list-style: circle;
+}
+/*formatação das palavras da Lista de atos preventivos e na aba de prevenção*/
+li.Prevenção{
+    position: relative;
+    top: 15em;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*Formatação das palavras em "quem somos" e "fale conosco"*/
+h1{
+    color: rebeccapurple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*Posição do título "Quem Somos"*/
+h1.QS{
+    left: 10em;
+    top: 6em;
+    position: absolute;
+}
+/*Posição do título "Fale Conosco"*/
+h1.FC{
+    left: 22em;
+    top: 6em;
+    position: absolute;
+}
+/*Formatação do texto "Quem Somos"*/
+p.QS{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 7em;
+    top: 11em;
+    width: 21em;
+    text-align: justify;
+}
+/*Posição e formatação da lista de contatos em "Fale Conosco"*/
+ul.FC{
+    padding: 3em;
+    width: 100%;
+    list-style: circle;
+}
+/*Formatação das palavras na lista de contatos em "Fale Conosco"*/
+li.FC{
+    position: relative;
+    top: 12em;
+    font-family: Arial Helvetica, sans-serif;
+    font-size: 20px;
+    left: 32em;
+    top: 7em;
+}
+/*Formatação do aviso na aba Sobre*/
+p.aviso{
+    color: red;
+    top: 23em;
+}
